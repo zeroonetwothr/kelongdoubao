@@ -34,3 +34,4 @@ if prompt:
         {"role": "ai", "content": response}
     )
     st.chat_message("ai").write(response)
+print("hello world")
